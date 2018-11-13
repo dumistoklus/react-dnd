@@ -1,0 +1,13 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"declaration": true,
+		"outDir": "./lib",
+		"baseUrl": "./",
+		"target": "ES6",
+		"moduleResolution": "node",
+		"alwaysStrict": true,
+		"experimentalDecorators": true
+	},
+	"include": ["./src/index.ts"]
+}
